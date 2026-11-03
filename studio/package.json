@@ -1,0 +1,17 @@
+{
+  "name": "dare-network-studio",
+  "private": true,
+  "scripts": {
+    "dev": "node run-sanity.mjs dev",
+    "build": "node run-sanity.mjs build",
+    "typegen": "node run-sanity.mjs typegen"
+  },
+  "devDependencies": {
+    "@sanity/icons": "latest",
+    "@sanity/vision": "latest",
+    "sanity": "latest"
+  },
+  "dependencies": {
+    "styled-components": "^6.6.0"
+  }
+}
